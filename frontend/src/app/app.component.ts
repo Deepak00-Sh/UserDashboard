@@ -11,13 +11,3 @@ import { RouterOutlet } from '@angular/router';
 export class AppComponent {
   title = 'UserDashboardUI';
 }
-@Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css',
-})
-export class AppComponent2 {
-  title = 'UserDashboardUI';
-}
